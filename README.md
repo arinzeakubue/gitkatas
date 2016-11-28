@@ -10,7 +10,7 @@ Since your current HEAD is not ready for prime time you backup one commit, and s
 Thats when you realize you created a minor mess with your branches.
 
 Currently your commits look like this
-
+```
          kata5-commit-on-wrong-branch-master
            |
            v
@@ -20,9 +20,9 @@ Currently your commits look like this
 remote     ^
            |
         kata5-commit-on-wrong-branch-quickfix
-
+```
 But you want it to look like this:
-
+```
          remote
            |
            v
@@ -30,7 +30,7 @@ But you want it to look like this:
                    ^
                    |
                   HEAD
-
+```
 
 Git ahead!
 
